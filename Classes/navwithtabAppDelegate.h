@@ -13,6 +13,10 @@
 	UINavigationController *navigationController;
 }
 
+// create a preprocessor macro. when used, it expands to an expression that gets the app delegate and casts it to the appropriate class.
+#define appDel \
+((navwithtabAppDelegate *)[UIApplication sharedApplication].delegate)
+
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface navwithtabViewController : UIViewController {
+@class SecondViewController;
 
+@interface navwithtabViewController : UIViewController {
+	UIButton *clickMe;
 }
 
+@property (nonatomic, retain) IBOutlet UIButton *clickMe;
+- (IBAction)clickMeWasClicked;
 @end
 
