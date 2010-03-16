@@ -12,8 +12,10 @@
 
 @interface navwithtabViewController : UIViewController {
 	UIButton *clickMe;
+	SecondViewController *secondVC;
 }
 
+@property (nonatomic, retain)  SecondViewController *secondVC;
 @property (nonatomic, retain) IBOutlet UIButton *clickMe;
 - (IBAction)clickMeWasClicked;
 @end

@@ -8,11 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class TabBarFirstTabViewController, TabBarSecondTabViewController;
 
 @interface SecondViewController : UIViewController {
 	UITabBarController *tabBar;
+	UIWindow *window;
+	TabBarFirstTabViewController *tabBarFirstTab;
+	TabBarSecondTabViewController *tabBarSecondTab;
 }
 
+@property (nonatomic, retain)  TabBarFirstTabViewController *tabBarFirstTab;
+@property (nonatomic, retain)  TabBarSecondTabViewController *tabBarSecondTab;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBar;
 
 @end

@@ -12,13 +12,17 @@
 
 @implementation navwithtabViewController
 
+@synthesize secondVC;
 @synthesize clickMe;
 
 
 - (IBAction)clickMeWasClicked {
-	SecondViewController *tempVC = [[SecondViewController alloc] init];
-	[appDel.navigationController pushViewController:tempVC animated:YES];
-	[tempVC release];
+	if (secondVC == nil) {
+		SecondViewController *tempVC = [[SecondViewController alloc] init];
+		self.secondVC = tempVC;
+		[tempVC release];
+	}
+	[appDel.navigationController pushViewController:self.secondVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,6 +39,8 @@
 
 - (void)dealloc {
 	[clickMe release], self.clickMe = nil;
+
+	[secondVC release], self.secondVC = nil;
 
     [super dealloc];
 }

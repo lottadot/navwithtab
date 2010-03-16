@@ -65,12 +65,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C19F57A114FEB8E00F84E3D /* SecondViewController.h */,
-				9C19F57B114FEB8E00F84E3D /* SecondViewController.m */,
 				1D3623240D0F684500981E51 /* navwithtabAppDelegate.h */,
 				1D3623250D0F684500981E51 /* navwithtabAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* navwithtabViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* navwithtabViewController.m */,
+				9C19F57A114FEB8E00F84E3D /* SecondViewController.h */,
+				9C19F57B114FEB8E00F84E3D /* SecondViewController.m */,
 				9C19F5BE114FEE2500F84E3D /* TabBarFirstTabViewController.h */,
 				9C19F5BF114FEE2500F84E3D /* TabBarFirstTabViewController.m */,
 				9C19F5C3114FEE2D00F84E3D /* TabBarSecondTabViewController.h */,
