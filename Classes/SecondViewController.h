@@ -10,7 +10,9 @@
 
 
 @interface SecondViewController : UIViewController {
-
+	UITabBarController *tabBar;
 }
+
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBar;
 
 @end

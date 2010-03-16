@@ -17,6 +17,10 @@
 		28D7ACF80DDB3853001CB0EB /* navwithtabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* navwithtabViewController.m */; };
 		9C19F57D114FEB8E00F84E3D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C19F57B114FEB8E00F84E3D /* SecondViewController.m */; };
 		9C19F57E114FEB8E00F84E3D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F57C114FEB8E00F84E3D /* SecondViewController.xib */; };
+		9C19F5C1114FEE2500F84E3D /* TabBarFirstTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C19F5BF114FEE2500F84E3D /* TabBarFirstTabViewController.m */; };
+		9C19F5C2114FEE2500F84E3D /* TabBarFirstTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F5C0114FEE2500F84E3D /* TabBarFirstTabViewController.xib */; };
+		9C19F5C6114FEE2D00F84E3D /* TabBarSecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C19F5C4114FEE2D00F84E3D /* TabBarSecondTabViewController.m */; };
+		9C19F5C7114FEE2D00F84E3D /* TabBarSecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C19F5C5114FEE2D00F84E3D /* TabBarSecondTabViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +39,13 @@
 		8D1107310486CEB800E47090 /* navwithtab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "navwithtab-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9C19F57A114FEB8E00F84E3D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		9C19F57B114FEB8E00F84E3D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		9C19F57C114FEB8E00F84E3D /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		9C19F57C114FEB8E00F84E3D /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondViewController.xib; path = Classes/SecondViewController.xib; sourceTree = "<group>"; };
+		9C19F5BE114FEE2500F84E3D /* TabBarFirstTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarFirstTabViewController.h; sourceTree = "<group>"; };
+		9C19F5BF114FEE2500F84E3D /* TabBarFirstTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarFirstTabViewController.m; sourceTree = "<group>"; };
+		9C19F5C0114FEE2500F84E3D /* TabBarFirstTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TabBarFirstTabViewController.xib; path = Classes/TabBarFirstTabViewController.xib; sourceTree = "<group>"; };
+		9C19F5C3114FEE2D00F84E3D /* TabBarSecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarSecondTabViewController.h; sourceTree = "<group>"; };
+		9C19F5C4114FEE2D00F84E3D /* TabBarSecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarSecondTabViewController.m; sourceTree = "<group>"; };
+		9C19F5C5114FEE2D00F84E3D /* TabBarSecondTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TabBarSecondTabViewController.xib; path = Classes/TabBarSecondTabViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +67,14 @@
 			children = (
 				9C19F57A114FEB8E00F84E3D /* SecondViewController.h */,
 				9C19F57B114FEB8E00F84E3D /* SecondViewController.m */,
-				9C19F57C114FEB8E00F84E3D /* SecondViewController.xib */,
 				1D3623240D0F684500981E51 /* navwithtabAppDelegate.h */,
 				1D3623250D0F684500981E51 /* navwithtabAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* navwithtabViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* navwithtabViewController.m */,
+				9C19F5BE114FEE2500F84E3D /* TabBarFirstTabViewController.h */,
+				9C19F5BF114FEE2500F84E3D /* TabBarFirstTabViewController.m */,
+				9C19F5C3114FEE2D00F84E3D /* TabBarSecondTabViewController.h */,
+				9C19F5C4114FEE2D00F84E3D /* TabBarSecondTabViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -98,6 +111,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9C19F5C0114FEE2500F84E3D /* TabBarFirstTabViewController.xib */,
+				9C19F5C5114FEE2D00F84E3D /* TabBarSecondTabViewController.xib */,
+				9C19F57C114FEB8E00F84E3D /* SecondViewController.xib */,
 				2899E5210DE3E06400AC0155 /* navwithtabViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* navwithtab-Info.plist */,
@@ -160,6 +176,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* navwithtabViewController.xib in Resources */,
 				9C19F57E114FEB8E00F84E3D /* SecondViewController.xib in Resources */,
+				9C19F5C2114FEE2500F84E3D /* TabBarFirstTabViewController.xib in Resources */,
+				9C19F5C7114FEE2D00F84E3D /* TabBarSecondTabViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +192,8 @@
 				1D3623260D0F684500981E51 /* navwithtabAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* navwithtabViewController.m in Sources */,
 				9C19F57D114FEB8E00F84E3D /* SecondViewController.m in Sources */,
+				9C19F5C1114FEE2500F84E3D /* TabBarFirstTabViewController.m in Sources */,
+				9C19F5C6114FEE2D00F84E3D /* TabBarSecondTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
