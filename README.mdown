@@ -1,0 +1,20 @@
+navwithtab
+=============
+
+An Xcode project to demonstrate a simple view based app that uses a 
+UINavigationController to navigate to eventually navigate to a 
+view that has a UITabBarController on it.
+
+The original intent was to do this step by step, and do it all 
+using IB.
+
+If you follow along with the commits, I did everything but the last 
+bit of functioning tabbar with IB. I could not get the tabbar to 
+function w/o doing it through code.
+
+I did this after jweinberg on #iphonedev was asking how to do it.
+
+Change-log
+==========
+Version 0.1 @ 2010-03-16
+- Initial release.
