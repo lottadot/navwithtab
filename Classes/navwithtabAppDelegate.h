@@ -8,15 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class navwithtabViewController;
-
 @interface navwithtabAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    navwithtabViewController *viewController;
+	UINavigationController *navigationController;
 }
 
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet navwithtabViewController *viewController;
 
 @end
 

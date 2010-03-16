@@ -11,23 +11,24 @@
 
 @implementation navwithtabAppDelegate
 
+@synthesize navigationController;
 @synthesize window;
-@synthesize viewController;
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after app launch    
-    [window addSubview:viewController.view];
-    [window makeKeyAndVisible];
-	
+//    [window addSubview:viewController.view];
+//    [window makeKeyAndVisible];
+	[window addSubview:[navigationController view]];
+    [window makeKeyAndVisible];	
 	return YES;
 }
 
 
 - (void)dealloc {
-    [viewController release];
     [window release];
+	[navigationController release], self.navigationController = nil;
+
     [super dealloc];
 }
 
